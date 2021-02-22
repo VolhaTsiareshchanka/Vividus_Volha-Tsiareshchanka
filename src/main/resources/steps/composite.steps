@@ -1,0 +1,6 @@
+Composite: When I enter $email, $name and $password in the registration form
+When I enter `<email>` in field located `By.xpath(//input[@id='email'])`
+When I click on element located `By.xpath(//*[@id="signup-submit"])`
+When I wait until element located `By.xpath(//*[@id="displayName"])` appears
+When I enter `<password>` in field located `By.xpath(//*[@id='password'])`
+When I enter `<name>` in field located `By.xpath(//*[@id='displayName'])`

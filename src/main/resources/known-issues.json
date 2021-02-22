@@ -1,2 +1,53 @@
 {
+ "eligible": true,
+    "scope": [
+        {
+            "tag": "OUT_OF_HOME",
+            "type": "WIFI_CREDENTIALS"
+        },
+        {
+            "tag": "OUT_OF_HOME",
+            "type": "COMMUNITY_MAP"
+        },
+        {
+            "tag": "IN_HOME",
+            "type": "VIEW_DEVICES"
+        },
+        {
+            "reason": "NEW_PROSPECT",
+            "tag": "CARE",
+            "type": "FIXED_CARE",
+            "enabled": false
+        },
+        {
+            "reason": "NEW_PROSPECT",
+            "tag": "OUT_OF_HOME",
+            "type": "GET_ROAMING_STATUS",
+            "enabled": false
+        },
+        {
+            "reason": "NEW_PROSPECT",
+            "tag": "MOBILE_USAGE",
+            "type": "VIEW_USAGE",
+            "enabled": false
+        },
+        {
+            "tag": "IN_HOME",
+            "type": "SETUP_CPE"
+        }
+    ],
+    "profile": {
+        "firstName": "Miranda",
+        "lastName": "Lawson",
+        "accounts": [
+            {
+                "accountId": 684458,
+                "customerSystem": "FIXED",
+                "countryCode": "IE",
+                "customerId": 79171098,
+                "isPreferred": true
+            }
+        ],
+        "userId": "4805772"
+    }
 }
